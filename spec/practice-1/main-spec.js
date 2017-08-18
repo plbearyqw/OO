@@ -39,8 +39,8 @@ describe("Person", () => {
 
   describe("Worker", () => {
 
-    it("should have field name, age and klass", () => {
-      let worker = new Worker("Tom", 21, 2);
+    it("should have field name, age", () => {
+      let worker = new Worker("Tom", 21);
       expect(worker.name).toBe("Tom");
       expect(worker.age).toBe(21);
 
